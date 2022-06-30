@@ -6,4 +6,4 @@ I plan to add to this as I advance through the MITxPRO full stack development co
 
 ## **Links**
 
-Check out my portfolio at jamesp8403@github.io
+Check out my portfolio at http://jamesp8403.github.io
