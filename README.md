@@ -7,3 +7,6 @@ I plan to add to this as I advance through the MITxPRO full stack development co
 ## **Links**
 
 Check out my portfolio at http://jamesp8403.github.io
+
+## Shape Design Repo
+<a href="http://jamesp8403.github.io/shapeDesign"> Design Exercise </a>
