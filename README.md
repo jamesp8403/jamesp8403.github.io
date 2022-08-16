@@ -10,3 +10,6 @@ Check out my portfolio at http://jamesp8403.github.io
 
 ## Shape Design Repo
 <a href="http://jamesp8403.github.io/shapeDesign"> Design Exercise </a>
+
+## Pacmen Repo
+<a href="http://jamesp8403.github.io/pacmen"> Pacmen Animation </a>
