@@ -13,3 +13,6 @@ Check out my portfolio at http://jamesp8403.github.io
 
 ## Pacmen Repo
 <a href="http://jamesp8403.github.io/pacmen"> Pacmen Animation </a>
+
+## Eyes Repo
+<a href="http://jamesp8403.github.io/eyes"> Eyes Animation </a>
