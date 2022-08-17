@@ -15,4 +15,4 @@ Check out my portfolio at http://jamesp8403.github.io
 <a href="http://jamesp8403.github.io/pacmen"> Pacmen Animation </a>
 
 ## Eyes Repo
-<a href="http://jamesp8403.github.io/eyes"> Eyes Animation </a>
+<a href="http://jamesp8403.github.io/Eyes"> Eyes Animation </a>
