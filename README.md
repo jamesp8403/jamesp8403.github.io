@@ -18,4 +18,4 @@ Check out my portfolio at http://jamesp8403.github.io
 <a href="http://jamesp8403.github.io/Eyes"> Eyes Animation </a>
 
 ## Real Time Bus Tracker
-<a href="http://jamesp8403.github.io/Real-Time-Bus-Tracker"> Real-Time-Bus-Tracker </a>
+<a href="http://jamesp8403.github.io/Real-Time-Bus-Tracker"> Real-Time Bus Tracker </a>
