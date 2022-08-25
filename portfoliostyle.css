@@ -96,8 +96,13 @@ li:hover {
                 "sidebar footer";
             grid-template-columns: auto 1fr;
             grid-template-rows: 1fr auto;
-    
+    }
          }
+
+@media only screen and (min-width: 769px) {
+    header {
+        grid-column: 1 / 3;
+    }
 
   h2 {
     z-index: 1;
