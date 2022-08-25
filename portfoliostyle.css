@@ -89,6 +89,16 @@ li:hover {
     background-color: #e3f2fd;
   }
 
+  @media (min-width:1040px) {
+         .container {
+            grid-template-areas:
+                "sidebar content"
+                "sidebar footer";
+            grid-template-columns: auto 1fr;
+            grid-template-rows: 1fr auto;
+    
+         }
+
   h2 {
     z-index: 1;
     position: absolute;
