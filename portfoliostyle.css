@@ -1,21 +1,3 @@
-img {
-  position: absolute;
-  top: 1250px;
-  left: 1700px;
-  border-radius: 80px;
-  padding: 50px;
-}
-
-h1 {
-    z-index: 5;
-    position: absolute;
-    top: 450px;
-    left: 800px;
-    font-family: Copperplate, fantasy;
-    font-size: 100px;
-    letter-spacing: 4px;
-}
-
 body {
     background-color: rgb(255, 228, 233);
     color: #6495ED;
@@ -24,6 +6,7 @@ body {
 ul {
    padding: 8;
    list-style-type: none;
+   display: flex;
 }
 
 a {
@@ -89,18 +72,29 @@ li:hover {
     background-color: #e3f2fd;
   }
 
-/* can't get the media to fit on a mobile device */
-@media only screen and (min-width: 769px) {
-    header {
-        grid-column: 1 / 3;
-    }
+img {
+  position: absolute;
+  top: 1250px;
+  left: 1700px;
+  border-radius: 80px;
+  padding: 50px;
+}
+
+h1 {
+    z-index: 5;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    font-family: Copperplate, fantasy;
+    font-size: 100px;
+    letter-spacing: 4px;
 }
 
   h2 {
     z-index: 1;
     position: absolute;
     top: 1170px;
-    left: 1100px;
+    left: 300px;
     font-family: Copperplate, fantasy;
     font-size: 100px;
     letter-spacing: 4px;
@@ -110,7 +104,7 @@ li:hover {
     z-index: 1;
     position: absolute;
     top: 1400px;
-    left: 1100px;
+    left: 100px;
     font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
@@ -120,7 +114,7 @@ li:hover {
     z-index: 1;
     position: absolute;
     top: 1700px;
-    left: 1100px;
+    left: 100px;
     font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
@@ -130,7 +124,7 @@ li:hover {
     z-index: 1;
     position: absolute;
     top: 1900px;
-    left: 1100px;
+    left: 100px;
     font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
