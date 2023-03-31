@@ -1,0 +1,142 @@
+.green {
+position: absolute;
+left: 300px;
+top: 200px;
+height: 300px;
+width: 150px;
+border-radius: 50px 0 50px 0%;
+background: olive;
+}
+
+.circle2 {
+position: absolute;
+left: 350px;
+top: 250px;
+height: 300px;
+width: 150px;
+border-radius: 50px 0px 50px 0%;
+background: orange;
+}
+
+.circle3 {
+position: absolute;
+left: 475px;
+top: 400px;
+height: 80px;
+width: 80px;
+border-radius: 50%;
+background: black;
+}
+
+.circle4 {
+    position: absolute;
+    left: 510px;
+    top: 300px;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 30px solid transparent;
+	border-top: 130px solid black;
+    }
+
+    .circle5 {
+        position: absolute;
+        left: 570px;
+        top: 320px;
+        width: 0px;
+        height: 20px;
+        border-left: 30px solid transparent;
+        border-right: 110px solid transparent;
+        border-top: 70px solid black;
+        }
+
+    .circle6 {
+    position: absolute;
+    left: 615px;
+    top: 400px;
+    width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid black;
+	border-bottom: 10px solid transparent;
+    rotate: -10deg;
+    }
+
+    .circle7 {
+        position: absolute;
+        left: 640px;
+        top: 300px;
+        width: 0;
+        height: 0;
+        border-top: 140px solid transparent;
+        border-right: 30px solid black;
+        border-bottom: 25px solid transparent;
+        rotate: 30deg;
+        }
+
+        .circle8 {
+            position: absolute;
+            left: 670px;
+            top: 320px;
+            width: 0px;
+            height: 20px;
+            border-left: 30px solid transparent;
+            border-right: 110px solid transparent;
+            border-top: 70px solid black;
+            }
+    
+        .circle9 {
+        position: absolute;
+        left: 715px;
+        top: 400px;
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-right: 100px solid black;
+        border-bottom: 10px solid transparent;
+        rotate: -10deg;
+        }
+    
+        .circle10 {
+            position: absolute;
+            left: 740px;
+            top: 300px;
+            width: 0;
+            height: 0;
+            border-top: 140px solid transparent;
+            border-right: 30px solid black;
+            border-bottom: 25px solid transparent;
+            rotate: 30deg;
+            }
+
+            .circle11 {
+                position: absolute;
+    left: 830px;
+    top: 310px;
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 130px solid black;
+            }
+
+            .circle12 {
+                position: absolute;
+    left: 570px;
+    top: 380px;
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 35px solid #555;
+            }
+
+            .circle13 {
+                position: absolute;
+                left: 825px;
+                top: 450px;
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background: black;
+                }
