@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(252, 226, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.canvas {
+    width: 1000px;
+    height: 1000px;
+    background-color: hsl(113, 76%, 75%);
+    border-radius: 30px;
+}
+
+.frame {
+    border: solid rgb(58, 25, 7) 50px;
+    width: 570px;
+    padding: 70px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    padding: 15px 0px 0px 50px;
+    color: rgb(58, 25, 7);
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 0px 0px 0px 180px;
+    color: rgb(58, 25, 7);
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+#image {
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+    display: block;
+}
+
+.img-caption {
+    margin-top: 10px;
+    margin-bottom: 75px;
+    text-align: center;
+    color: rgb(58, 25, 7);
+    font-size: 18px;
+}
+
+li {
+    margin-top: 15px;
+    text-align: left;
+    color: rgb(58, 25, 7);
+    font-size: 16px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.one {
+    background-color: #eec17e;
+    box-shadow: 0 0 20px 20px #eec17e;
+    border-radius: 9px;
+    transform: rotate(-0.9deg);
+}
+
+footer {
+    background-color: hsl(113, 76%, 75%);
+    display: flex;
+    justify-content: center;
+}
+
+footer, footer a {
+    color: rgb(58, 25, 7);
+}
+
+footer a {
+text-decoration: none;
+}
+
+footer p a:hover {
+    color: hsl(85, 26%, 25%);
+    cursor: pointer;
+}

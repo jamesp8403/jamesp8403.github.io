@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Product Landing Page" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" />
+        <link rel="stylesheet" href="landingpagestyles.css" />
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <header id="header">
+            <img id="header-img" src="jazz.jpg" alt="A jazz logo">
+            <div id="music">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-duotone fa-music"></i>
+            <i class="fas fa-record-vinyl"></i>
+        </div>
+            <h1>James's Jazz Piano Lessons</h1>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#lessons">Lessons</a></li>
+                    <li><a class="nav-link" href="#video">Video</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+            <h2>Personal, individualized sessions</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+            <input id="email" type="email" name="email" placeholder="Enter your email address here">
+            <input id="submit" type="submit" value="sign up">
+        </form>
+    </section>
+    <section id="descriptions">
+        <h3 id="lessons">Chord Voicings</h3>
+        <p>My own theories about melody tone chord voicings for ballads</p>
+        <h3>Improvising</h3>
+        <p>Techniques, approach tones, and licks</p>
+        <h3>Composition</h3>
+        <p>Written solos, melodies and reharmonization</p>
+    </section>
+    <section>
+        <figure>
+        <video id="video" controls src="detour.mp4"></video>
+        </figure>
+        <figcaption><em>"Detour Ahead"</em></figcaption>
+    </section>
+    <section>
+        <div id="pricing">
+        <div class="first-lesson">
+            <h4>First Lesson</h4>
+            <h5>FREE</h5>
+            <ul>
+                <li class="pricing-list">First lesson free</li>
+                <li class="pricing-list">Decide to continue or naw</li>
+                <li class="pricing-list">Assessment, suggestions, tips</li>
+                <li class="pricing-list">Refer a friend and save!</li>
+            </ul>
+            <input id="submit" type="submit" value="sign up">
+        </div>
+        <div class="lesson-prices">
+            <h4>Lesson Prices</h4>
+            <h5>$100/hr</h5>
+            <ul>
+            <li class="pricing-list">Or $50/30min</li>
+            <li class="pricing-list">Personalized lessons</li>
+            <li class="pricing-list">Learn what you want</li>
+            <li class="pricing-list">Jazz!</li>
+        </ul>
+        <input id="submit" type="submit" value="sign up">
+        </div>
+        </div>
+    </section>
+    </main>
+    </body>
+</html>
