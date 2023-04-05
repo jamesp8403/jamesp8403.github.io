@@ -1,11 +1,16 @@
 html {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
 
 body {
     font-family: Helvetica, Tahoma, sans-serif;
+    max-width: 100%;
     margin: 0;
     padding: 0;
+    
 }
 
 .container {
@@ -55,19 +60,21 @@ body {
 
 #welcome-section { 
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(45deg, coral, seagreen, honeydew);
     margin: 0 auto;
+    padding: 0px;
     display: flex;
     align-items: center;
 }
 
 h1 {
-    font-size: 5rem; 
+    font-size: 7rem; 
     color: honeydew;
     text-align: center;
     padding-top: 20%;
     margin-bottom: -10px;
+    font-weight: bold;
 }
 
 p {
@@ -77,7 +84,7 @@ p {
 }
 
 #projects {
-    padding: 40px;
+    padding: 40px 0;
     background-color: honeydew;
     text-align: center;
 }
@@ -90,10 +97,11 @@ h2 {
 .eyes {
     display: flex;
     justify-content: center;
-    margin-top: -20px;
+    margin: -20px 0;
     z-index: 1;
     width: 100%;
   }
+  
   .eye {
     width: 90px;
     height: 130px;
@@ -116,9 +124,6 @@ h2 {
     transform: translate(-50%, -50%);
     border-radius: 50%;
   }
-  
-
-
 
 .project-sections {
     display: flex;
@@ -127,7 +132,7 @@ h2 {
 
 .myprojects {
     height: 250px;
-    width: 100%;
+    width: 100vw;
     max-width: 300px;
     text-align: center;
     align-items: center;
@@ -135,8 +140,8 @@ h2 {
     border: 1px solid seagreen;
     background-color: white;
     border-radius: 10px;
-    padding: 20px 20px 0px 20px; 
-    margin: 20px;
+    padding: 25px 20px 0px 20px; 
+    margin: 25px;
     box-shadow: 10px 10px 20px 0px seagreen;
 }
 
@@ -174,13 +179,13 @@ button:hover {
 }
 
 h3 {
-font-size: 5rem;
+font-size: 8rem;
 color: honeydew;
     display: flex;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 20px;
-    margin-bottom: -5px;
+    margin-bottom: 0px;
 }
 
 .project-title a {
@@ -196,9 +201,8 @@ color: honeydew;
 
 .social-icons a {
    color: seagreen; 
-  
-   padding: 20px;
-   text-align: center;
+   padding-left: 60px;
+   
 }
 
 .social-icons a:hover {
@@ -209,8 +213,20 @@ color: honeydew;
 .social-icons {
     display: inline-block;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     align-items: center; /* align-items will align child elements along the column axis, and justify-items will align child elements along the row axis. */
+}
+
+footer {
+    background-color: seagreen;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.copyright {
+    color: honeydew;
+    font-size: 15px;
+    
 }
 
 @media (max-width: 480px) {
