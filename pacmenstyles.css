@@ -1,5 +1,5 @@
 body {
-    background-color: linear-gradient( honeydew, seagreen);
+    background: linear-gradient(honeydew, seagreen);
 }
 
 button {
