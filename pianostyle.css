@@ -1,102 +1,91 @@
-img {
-    position: absolute;
-    top: 30px;
-    left: 1225px;
-    width: 390px;
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 
-h1 {
-    z-index: 5;
-    position: absolute;
-    top: 400px;
-    left: 800px;
-    font-family: Copperplate, fantasy;
-    font-size: 100px;
-    letter-spacing: 4px;
-    
-}
+
 
 body {
     background-color: rgb(247, 239, 207);
     color: #61422c;
+    font-family: Helvetica, Tahoma, sans-serif;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-   display: flex;
-   padding: 8;
-   list-style-type: none;
+.container {
+  margin: 0 auto; /*ensures that the content stays at the center of the container irrespective of screen size */
+  max-width: 900px; 
+  padding: 0;
 }
 
-a {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
-    color: #61422c;
+#navbar {
+  background: rgb(247, 239, 207);
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content:flex-end;
+  z-index: 5;
+  border-bottom: 5px solid #61422c;
 }
 
-li {
-    display: flex;
-    float: left;
-    font-size: 30px;
-    padding: 40px;
-    border-right: 3px solid #bbb; 
-    
+#navbar ul {
+  list-style: none;
+  padding-right: 2rem;
 }
 
-li:hover {
-    background-color: #e3f2fd;
+#navbar li {
+  display: inline-block;
+  padding: 0.8rem 0.5rem;
 }
 
-.dropbtn {
-    background-color: rgb(247, 239, 207);
-    color: #61422c;
-    padding: 16px;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
+.nav-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #61422c;
+}
+
+#navbar li a {
+  padding: 1.8rem 2rem 1.9rem 2rem;
+}
+
+#navbar li a:hover {
+  background-color: #e3f2fd;
+  border-radius: 0px;
+  cursor: pointer;
+  margin: 0;
+}
+
+
+#welcome-section { 
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 16rem; 
+  font-weight: bolder;
+  margin: 70px 0px 0px -300px;
+
+}
+
+ video {
+  position: absolute;
+  left:800px;
   }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 5;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #e3f2fd}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {
-    background-color: #e3f2fd;
-  }
-  
+
   h2 {
     z-index: 1;
     position: absolute;
-    top: 1000px;
+    top: 1300px;
     left: 600px;
-    font-family: Copperplate, fantasy;
     font-size: 40px;
     letter-spacing: 4px;
     width: 600px;
@@ -105,9 +94,8 @@ li:hover {
   p1 {
     z-index: 1;
     position: absolute;
-    top: 800px;
+    top: 1100px;
     left: 50px;
-    font-family: Copperplate, fantasy;
     font-size: 50px;
     letter-spacing: 1px;
     width: 1400px;
@@ -116,9 +104,8 @@ li:hover {
   p2 {
     z-index: 1;
     position: absolute;
-    top: 1150px;
+    top: 1450px;
     left: 400px;
-    font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
     width: 800px;
@@ -127,9 +114,8 @@ li:hover {
   p3 {
     z-index: 1;
     position: absolute;
-    top: 1500px;
+    top: 1800px;
     left: 40px;
-    font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
     padding: 100px;
@@ -139,9 +125,8 @@ li:hover {
   p4 {
     z-index: 1;
     position: absolute;
-    top: 1700px;
+    top: 2000px;
     left: 40px;
-    font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
     padding: 100px;
@@ -151,9 +136,8 @@ li:hover {
  p5 {
     z-index: 1;
     position: absolute;
-    top: 1900px;
+    top: 2200px;
     left: 40px;
-    font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
     padding: 100px;
@@ -163,9 +147,8 @@ li:hover {
  p6 {
     z-index: 1;
     position: absolute;
-    top: 2100px;
+    top: 2400px;
     left: 40px;
-    font-family: Copperplate, fantasy;
     font-size: 30px;
     letter-spacing: 1px;
     padding: 100px;
@@ -173,8 +156,4 @@ li:hover {
   }
 
 
-  video {
-    position: absolute;
-    top: 400px;
-    left: 200px;
-  }
+ 
