@@ -138,12 +138,11 @@ text-align: left;
 
 
   @media (max-width: 1200px) {
-body {
-width: 1400px;
-}
+
 
 h1 {
-  font-size: 15rem;
+  margin-top: 90px;
+  font-size: 16rem;
 }
 video {
   padding-left: 800px;
